@@ -1,12 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 body{
-  padding:0;
-  margin:0;
+  margin: 0 auto;
   width: 2400px;
   font-family: "ta-kouran"; 
 }
 
 .all{
+  background-image:url(./img.png);
+  background-size: cover;
+  object-fit: cover;
   display: flex;
+  position: relative;
 }
 
 
